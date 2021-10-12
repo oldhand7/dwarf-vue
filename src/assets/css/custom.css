@@ -1,0 +1,564 @@
+.btn-radius {
+    border-radius: 50px!important;
+}
+
+.btn-shadow {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 0px 3px inset;
+}
+
+.prim {
+    color: #C4C976!important;
+}
+
+.sec {
+    color: #901A0D!important;
+}
+
+.prim-bg {
+    background-color: #C4C976!important;
+}
+
+.sec-bg {
+    background-color: #901A0D!important;
+}
+
+.bow {
+    font-family: 'Bowlby One SC', sans-serif;
+}
+
+.gen {
+    font-family: 'Gentium Book Basic', sans-serif;
+}
+
+.wallet-modal-title {
+    background: #C4C976;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 17px;
+    color: #901A0D;
+    font-size: 20px;
+    text-align: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.wallet-panel {
+    background: rgba(0, 0, 0, 0.05) none repeat scroll 0% 0%;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    margin: 0px 20px 10px;
+    display: flex;
+    -moz-box-align: center;
+    align-items: center;
+    height: 70px;
+    padding-left: 10px;
+    padding-right: 19px;
+    cursor: pointer;
+    transition: background 0.1s ease-out 0s;
+}
+
+.wallet-panel:hover {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0% 0%;
+}
+
+.wallet-panel-img {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.wallet-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.wallet-panel-title {
+    font-size: 20px;
+    color: rgb(25, 28, 67);
+    text-align: left;
+}
+
+.wallet-panel-subtitle {
+    font-size: 10px;
+    color: rgba(25, 28, 67, 0.7);
+    text-align: left;
+}
+
+.wallet-panel-arrow {
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.wallet-panel-arrow img {
+    margin: 0!important;
+}
+
+#team {
+    background: rgb(219, 222, 238);
+}
+
+.masthead-help {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    /*background-image: url("../img/help-arrow.png");*/
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: contain;
+    width: 45%;
+    margin: 0px auto;
+    padding-bottom: 100px;
+    display: block;
+}
+
+.link-btn {
+    display: block;
+    font-family: 'Bowlby One SC', sans-serif;
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.link-btn:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.hero-btn-wrapper {
+    display: block;
+    background-color: transparent;
+    margin: 0px auto;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-top: -2.5%;
+}
+
+.story-image {
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+.section-heading {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 36px;
+    font-family: 'Bowlby One SC', serif;
+    color: #FFF;
+}
+
+.story-text {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 27px;
+    line-height: 50px;
+    color: #FFF;
+    text-align: justify;
+}
+
+.story-bigger-text {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 43px;
+    letter-spacing: 1px;
+}
+
+
+.faq-section {
+    background: #fdfdfd;
+    /* min-height: 100vh;
+    padding: 10vh 0 0; */
+    padding: 6rem 0;
+}
+.faq-title h2 {
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
+}
+.faq-title h2::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 60px;
+    height: 2px;
+    background: #901A0D;
+    bottom: -25px;
+    margin-left: -30px;
+}
+.faq-title p {
+  padding: 0 190px;
+  margin-bottom: 10px;
+}
+
+.faq {
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 4px;
+}
+
+.faq .card {
+  border: none;
+  background: none;
+  border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+  padding: 0px;
+  border: none;
+  background: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+    background: rgba(233, 30, 99, 0.1);
+    padding-left: 10px;
+}
+.faq .card .card-header .faq-title {
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: 400;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #3B566E;
+  text-decoration: none !important;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Bowlby One SC', "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.faq .card .card-header .faq-title .badge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+  float: left;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-align: center;
+  background: #901A0D;
+  color: #fff;
+  font-size: 12px;
+  margin-right: 20px;
+  padding: 3px;
+}
+
+.faq .card .card-body {
+  padding: 30px;
+  padding-left: 35px;
+  padding-bottom: 16px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+  margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+  .faq {
+    margin-bottom: 30px;
+  }
+  .faq .card .card-header .faq-title {
+    line-height: 26px;
+    margin-top: 10px;
+  }
+}
+
+.page-section:not(.page-section#roadmap), .faq-section, .bg-light {
+    background-color: transparent!important;
+    background: transparent!important;
+}
+
+.team-member h4, .team-member h5, .team-member p {
+    color: #FFF;
+    font-family: "Bowlby One SC", sans-serif;
+} 
+
+body {
+    background-image: url("https://i.redd.it/imkv74m4q5g41.png");
+    background-size: 100vw;
+}
+
+#intro{
+    margin-top:-15%;
+    padding: 10%;
+    /* background-image: url("../assets/img/bg.jpg");
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: 100vw; */
+}
+#intro h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+#intro .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+#intro .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 60%;
+}
+
+/* Start: RoadMap */
+.page-section#roadmap {
+    background: rgb(132, 154, 255);
+}
+
+#roadmap .roadmap-heading {
+    font-size: 150px;
+    color: #FFF;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+#roadmap .roadmap-subheading {
+    font-size: 30px;
+    color: #FFF;
+    font-family: "Bowlby One SC", sans-serif;
+    display: block;
+}
+
+#roadmap .roadmap-paragraph {
+    font-size: 14px;
+    color: #FFF;
+    opacity: 0.9;
+    font-family: "Bowlby One SC", sans-serif;
+}
+
+#roadmap .row {
+    margin-bottom: 100px;
+}
+/* End: RoadMap */
+
+.btn-mobile-connect {
+    background: rgba(0, 0, 0, 0) linear-gradient(rgb(255, 255, 255) 0%, rgb(244, 244, 244) 99.29%) repeat scroll 0% 0%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 0px 3px inset;
+    border-radius: 15px;
+    height: 40px;
+    width: 40px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    display: none;
+}
+
+/* Start: Form */
+.dwarf-buy-form {
+    position: relative;
+    width: 568px;
+    background: #C4C976;
+    box-shadow: 0 2px 21px rgba(0,0,0,.21);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.dwarf-buy-form .form-header {
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.dwarf-buy-form .nft-row-wrapper {
+    border-bottom: 1px solid #000;
+    padding: 14px 0;
+}
+
+.dwarf-buy-form .nft-row-wrapper .nft-label {
+    font-size: 20px;
+    color: #000;
+}
+
+.dwarf-buy-form .nft-row-wrapper .nft-balance {
+    font-size: 22px;
+    font-weight: 700;
+    color: #901A0D;
+}
+
+.dwarf-buy-form .nft-row-wrapper .nft-max-button {
+    background-color: #901A0D;
+    border-radius: 26px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFF;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.dwarf-buy-form .nft-buy-now {
+    width: 100%;
+    height: 56px;
+    background-color: #901A0D;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 24px;
+    outline: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.dwarf-buy-form .nft-row-wrapper .decrease-counter,
+.dwarf-buy-form .nft-row-wrapper .increase-counter {
+    font-size: 60px;
+    line-height: 60px;
+    color: #000;
+    cursor: pointer;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.dwarf-buy-form .nft-row-wrapper .amount {
+    width: 70px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #901A0D;
+    text-align: center;
+    cursor: pointer;
+}
+/* End: Form */
+
+/* Start: Countdown */
+.dwarf-buy-form.countdown-wrapper {
+    height: 240px;
+}
+.syotimer__body {
+    display: flex;
+    justify-content: space-around;
+}
+.syotimer {
+    text-align: center;
+    margin: 30px auto 0;
+    padding: 0 0 10px;
+  }
+  .syotimer-cell {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  .syotimer-cell__value {
+    font-size: 35px;
+    color: #901A0D;
+    height: 81px;
+    line-height: 81px;
+    margin: 0 0 5px;
+    font-family: 'Bowlby One SC', sans-serif;
+  }
+  .syotimer-cell__unit {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Bowlby One SC', sans-serif;
+  }
+/* End: Countdown */
+
+@media only screen and (max-width : 900px) {
+    #roadmap .roadmap-heading {
+        font-size: 90px;
+    }
+
+    .btn-connect {
+        display: none;
+    }
+
+    .btn-mobile-connect {
+        display: flex;
+        position: fixed;
+        z-index: 99999999;
+        top: 25px;
+        right: 30%;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .dwarf-buy-form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .dwarf-buy-form .nft-row-wrapper .nft-label {
+        font-size: 14px;
+    }
+    
+    .dwarf-buy-form .nft-row-wrapper .nft-balance {
+        font-size: 12px;
+    }
+    
+  
+    .dwarf-buy-form .nft-row-wrapper .decrease-counter,
+    .dwarf-buy-form .nft-row-wrapper .increase-counter {
+        font-size: 32px;
+    }
+    
+    .page-section {
+        padding: 5%!important;
+    }
+}
+
+/*@ Swal notification style */
+.swal2-container .swal2-popup.swal2-toast {
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    padding: 10px !important;
+  }
+
+button:disabled,
+button[disabled]{
+  border: 1px solid #999999 !important;
+  background-color: #cccccc !important;
+  color: #666666 !important;
+  cursor: not-allowed !important;
+}
+
+.disabled-content {
+    color: #666666 !important;
+    cursor: not-allowed !important;
+}
+
+body.swal2-toast-shown .swal2-container {
+    width: 500px !important;
+}

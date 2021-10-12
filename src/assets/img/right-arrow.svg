@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="7px" height="12px" viewBox="0 0 7 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.7">
+        <g id="Web3" transform="translate(-904.000000, -402.000000)" fill="#191C43" fill-rule="nonzero">
+            <g id="Group-4" transform="translate(490.000000, 293.000000)">
+                <g id="Group-3" transform="translate(20.000000, 80.000000)">
+                    <path d="M394.705,29.705 C394.315515,30.094485 394.315171,30.7258588 394.704231,31.1157684 L398.58,35 L398.58,35 L394.704231,38.8842316 C394.315171,39.2741412 394.315515,39.905515 394.705,40.295 C395.094361,40.6843607 395.725639,40.6843607 396.115,40.295 L399.995786,36.4142136 C400.776835,35.633165 400.776835,34.366835 399.995786,33.5857864 L396.115,29.705 C395.725639,29.3156393 395.094361,29.3156393 394.705,29.705 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
